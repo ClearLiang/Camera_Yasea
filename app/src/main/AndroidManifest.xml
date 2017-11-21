@@ -26,6 +26,9 @@
             android:launchMode="singleTop"
             android:theme="@android:style/Theme.NoTitleBar"
             android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <activity android:name=".CameraActivity"/>
+        <activity android:name=".PlayerActivity"/>
     </application>
 
 

@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Camera_Yasea</string>
-    <string name="btn_main_switch">切换</string>
+    <string name="btn_main_switch">前置</string>
     <string name="btn_main_taken">拍照</string>
     <string name="btn_main_video">录像</string>
 </resources>

@@ -1,23 +1,11 @@
 [
     {
-        "merged": "E:\\AndroidWorkPlace\\Camera_Yasea\\vitamio\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_ic_launcher.png.flat",
-        "source": "E:\\AndroidWorkPlace\\Camera_Yasea\\vitamio\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_launcher.png"
-    },
-    {
-        "merged": "E:\\AndroidWorkPlace\\Camera_Yasea\\vitamio\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldpi-v4_ic_launcher.png.flat",
-        "source": "E:\\AndroidWorkPlace\\Camera_Yasea\\vitamio\\build\\intermediates\\bundles\\debug\\res\\drawable-ldpi-v4\\ic_launcher.png"
-    },
-    {
         "merged": "E:\\AndroidWorkPlace\\Camera_Yasea\\vitamio\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_scrubber_control_normal_holo.png.flat",
         "source": "E:\\AndroidWorkPlace\\Camera_Yasea\\vitamio\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\scrubber_control_normal_holo.png"
     },
     {
         "merged": "E:\\AndroidWorkPlace\\Camera_Yasea\\vitamio\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_mediacontroller_pause.png.flat",
         "source": "E:\\AndroidWorkPlace\\Camera_Yasea\\vitamio\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\mediacontroller_pause.png"
-    },
-    {
-        "merged": "E:\\AndroidWorkPlace\\Camera_Yasea\\vitamio\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_ic_launcher.png.flat",
-        "source": "E:\\AndroidWorkPlace\\Camera_Yasea\\vitamio\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ic_launcher.png"
     },
     {
         "merged": "E:\\AndroidWorkPlace\\Camera_Yasea\\vitamio\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_scrubber_track_holo_dark.9.png.flat",
@@ -50,10 +38,6 @@
     {
         "merged": "E:\\AndroidWorkPlace\\Camera_Yasea\\vitamio\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_scrubber_secondary_holo.9.png.flat",
         "source": "E:\\AndroidWorkPlace\\Camera_Yasea\\vitamio\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\scrubber_secondary_holo.9.png"
-    },
-    {
-        "merged": "E:\\AndroidWorkPlace\\Camera_Yasea\\vitamio\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_ic_launcher.png.flat",
-        "source": "E:\\AndroidWorkPlace\\Camera_Yasea\\vitamio\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\ic_launcher.png"
     },
     {
         "merged": "E:\\AndroidWorkPlace\\Camera_Yasea\\vitamio\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_scrubber_control_disabled_holo.png.flat",

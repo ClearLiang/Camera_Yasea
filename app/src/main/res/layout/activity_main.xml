@@ -1,40 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
 
-
-    <net.ossrs.yasea.SrsCameraView
-        android:id="@+id/glsurfaceview_camera"
+    <Button
+        android:id="@+id/push_stream_btn"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="直播（采集编码、rtmp推流）" />
 
     <Button
-        android:id="@+id/btn_switch"
-        android:layout_width="wrap_content"
+        android:id="@+id/play_stream_btn"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="26dp"
-        android:layout_marginRight="26dp"
-        android:layout_toLeftOf="@+id/btn_taken"
-        android:layout_toStartOf="@+id/btn_taken"
-        android:text="@string/btn_main_switch" />
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:text="观看直播（播放rtmp流）" />
 
-    <Button
-        android:id="@+id/btn_taken"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:text="@string/btn_main_taken" />
 
-    <Button
-        android:id="@+id/btn_video"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_marginLeft="26dp"
-        android:layout_marginStart="26dp"
-        android:layout_toEndOf="@+id/btn_taken"
-        android:layout_toRightOf="@+id/btn_taken"
-        android:text="@string/btn_main_video" />
-</RelativeLayout>
+</LinearLayout>
