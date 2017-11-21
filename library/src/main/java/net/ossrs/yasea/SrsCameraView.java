@@ -9,6 +9,8 @@ import android.opengl.GLES20;
 import android.opengl.GLSurfaceView;
 import android.opengl.Matrix;
 import android.util.AttributeSet;
+import android.util.Log;
+import android.widget.Toast;
 
 import com.seu.magicfilter.base.gpuimage.GPUImageFilter;
 import com.seu.magicfilter.utils.MagicFilterFactory;
@@ -24,9 +26,6 @@ import java.util.concurrent.ConcurrentLinkedQueue;
 import javax.microedition.khronos.egl.EGLConfig;
 import javax.microedition.khronos.opengles.GL10;
 
-/**
- * Created by Leo Ma on 2016/2/25.
- */
 public class SrsCameraView extends GLSurfaceView implements GLSurfaceView.Renderer {
 
     private GPUImageFilter magicFilter;
@@ -345,10 +344,10 @@ public class SrsCameraView extends GLSurfaceView implements GLSurfaceView.Render
                     break;
                 }
             }
-            if (frontCamId != -1) {
-                mCamId = frontCamId;
-            } else if (backCamId != -1) {
+            if (backCamId != -1) {
                 mCamId = backCamId;
+            } else if (frontCamId != -1) {
+                mCamId = frontCamId;
             } else {
                 mCamId = 0;
             }
@@ -417,4 +416,6 @@ public class SrsCameraView extends GLSurfaceView implements GLSurfaceView.Render
 
         void onGetRgbaFrame(byte[] data, int width, int height);
     }
+
+
 }

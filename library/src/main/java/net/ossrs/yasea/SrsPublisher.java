@@ -9,9 +9,6 @@ import com.seu.magicfilter.utils.MagicFilterType;
 
 import java.io.File;
 
-/**
- * Created by Leo Ma on 2016/7/25.
- */
 public class SrsPublisher {
 
     private static AudioRecord mic;
@@ -308,4 +305,6 @@ public class SrsPublisher {
             mEncoder.setMp4Muxer(mMp4Muxer);
         }
     }
+
+
 }
